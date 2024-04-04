@@ -2,7 +2,7 @@
 //  Apple_FrameWorksTests.swift
 //  Apple-FrameWorksTests
 //
-//  Created by Vladimir Fursov on 04.04.2024.
+//  Created by Egor Mironov on 04.04.2024.
 //
 
 import XCTest

@@ -2,7 +2,7 @@
 //  Apple_FrameWorksApp.swift
 //  Apple-FrameWorks
 //
-//  Created by Vladimir Fursov on 04.04.2024.
+//  Created by Egor Mironov on 04.04.2024.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct Apple_FrameWorksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrameworkGridView()
         }
     }
 }

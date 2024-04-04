@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E706DD132BBEEBEE00954F7B /* Apple_FrameWorksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD122BBEEBEE00954F7B /* Apple_FrameWorksApp.swift */; };
-		E706DD152BBEEBEE00954F7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD142BBEEBEE00954F7B /* ContentView.swift */; };
 		E706DD172BBEEBF000954F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E706DD162BBEEBF000954F7B /* Assets.xcassets */; };
 		E706DD1A2BBEEBF000954F7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E706DD192BBEEBF000954F7B /* Preview Assets.xcassets */; };
 		E706DD242BBEEBF100954F7B /* Apple_FrameWorksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD232BBEEBF100954F7B /* Apple_FrameWorksTests.swift */; };
 		E706DD2E2BBEEBF100954F7B /* Apple_FrameWorksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD2D2BBEEBF100954F7B /* Apple_FrameWorksUITests.swift */; };
 		E706DD302BBEEBF100954F7B /* Apple_FrameWorksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD2F2BBEEBF100954F7B /* Apple_FrameWorksUITestsLaunchTests.swift */; };
+		E706DD3D2BBEEC6700954F7B /* FrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD3C2BBEEC6700954F7B /* FrameWork.swift */; };
+		E706DD412BBEF14500954F7B /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD3E2BBEF13900954F7B /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E706DD0F2BBEEBEE00954F7B /* Apple-FrameWorks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-FrameWorks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E706DD122BBEEBEE00954F7B /* Apple_FrameWorksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameWorksApp.swift; sourceTree = "<group>"; };
-		E706DD142BBEEBEE00954F7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E706DD162BBEEBF000954F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E706DD192BBEEBF000954F7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E706DD1F2BBEEBF100954F7B /* Apple-FrameWorksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameWorksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		E706DD292BBEEBF100954F7B /* Apple-FrameWorksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameWorksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E706DD2D2BBEEBF100954F7B /* Apple_FrameWorksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameWorksUITests.swift; sourceTree = "<group>"; };
 		E706DD2F2BBEEBF100954F7B /* Apple_FrameWorksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameWorksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E706DD3C2BBEEC6700954F7B /* FrameWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWork.swift; sourceTree = "<group>"; };
+		E706DD3E2BBEF13900954F7B /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				E706DD122BBEEBEE00954F7B /* Apple_FrameWorksApp.swift */,
-				E706DD142BBEEBEE00954F7B /* ContentView.swift */,
+				E706DD3E2BBEF13900954F7B /* FrameworkGridView.swift */,
+				E706DD3C2BBEEC6700954F7B /* FrameWork.swift */,
 				E706DD162BBEEBF000954F7B /* Assets.xcassets */,
 				E706DD182BBEEBF000954F7B /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E706DD152BBEEBEE00954F7B /* ContentView.swift in Sources */,
+				E706DD412BBEF14500954F7B /* FrameworkGridView.swift in Sources */,
+				E706DD3D2BBEEC6700954F7B /* FrameWork.swift in Sources */,
 				E706DD132BBEEBEE00954F7B /* Apple_FrameWorksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
