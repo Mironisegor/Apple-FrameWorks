@@ -19,6 +19,7 @@
 		E706DD452BC1A55F00954F7B /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD442BC1A55F00954F7B /* AFButton.swift */; };
 		E706DD472BC1AABA00954F7B /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD462BC1AABA00954F7B /* FrameworkGridViewModel.swift */; };
 		E706DD492BC1B0F400954F7B /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706DD482BC1B0F400954F7B /* SafariView.swift */; };
+		E71CA8942BC2D1B0001CE561 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CA8932BC2D1B0001CE561 /* GreetingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E706DD442BC1A55F00954F7B /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		E706DD462BC1AABA00954F7B /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		E706DD482BC1B0F400954F7B /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		E71CA8932BC2D1B0001CE561 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				E706DD3C2BBEEC6700954F7B /* FrameWork.swift */,
 				E706DD462BC1AABA00954F7B /* FrameworkGridViewModel.swift */,
 				E706DD482BC1B0F400954F7B /* SafariView.swift */,
+				E71CA8932BC2D1B0001CE561 /* GreetingView.swift */,
 				E706DD162BBEEBF000954F7B /* Assets.xcassets */,
 				E706DD182BBEEBF000954F7B /* Preview Content */,
 			);
@@ -277,6 +280,7 @@
 				E706DD3D2BBEEC6700954F7B /* FrameWork.swift in Sources */,
 				E706DD452BC1A55F00954F7B /* AFButton.swift in Sources */,
 				E706DD132BBEEBEE00954F7B /* Apple_FrameWorksApp.swift in Sources */,
+				E71CA8942BC2D1B0001CE561 /* GreetingView.swift in Sources */,
 				E706DD472BC1AABA00954F7B /* FrameworkGridViewModel.swift in Sources */,
 				E706DD492BC1B0F400954F7B /* SafariView.swift in Sources */,
 			);

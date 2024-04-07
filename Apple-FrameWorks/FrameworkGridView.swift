@@ -32,6 +32,7 @@ struct FrameworkGridView: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
